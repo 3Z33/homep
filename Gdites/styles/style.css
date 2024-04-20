@@ -794,7 +794,7 @@ text-transform: uppercase;
   #rond{}
   }
 
-  @media screen and (max-width:701px){
+  @media screen and (max-width:710px){
       .index-presentation{background-color: red;}
   }
 
