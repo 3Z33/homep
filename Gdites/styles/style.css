@@ -793,9 +793,13 @@ text-transform: uppercase;
   /*#rond{left: 75vw;} */
   #rond{}
   }
-  
-  @media screen and (max-width:1079px){ /* normalement set à 1000px */
-  .index-presentation{width: 95%;display: flex;height: 1000px;background-color: red;} /* à enlever : backgrnd color */
+
+  @media screen and (max-width:600px){
+      .index-presentation{background-color: red;}
+  }
+
+  @media screen and (max-width:1000px){ 
+  .index-presentation{width: 95%;display: flex;height: 1000px;}
   .index-presentation-container{flex-wrap: wrap;gap:0;}
   .index-hidding-box{display:none;}
   
