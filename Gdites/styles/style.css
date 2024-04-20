@@ -1,0 +1,4482 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+/* --------------------------------- RESPONSIVE NAVBAR ------------------------------ */
+
+
+header{
+min-width: 250px;
+}
+
+nav.navbar{
+display: flex;
+padding:30px 200px 0 80px;
+}
+
+#logo{
+position: relative;
+}
+
+ul.navbar-list{
+list-style: none;
+display: flex;
+margin: auto;
+padding: 0;
+justify-content: space-around;
+width: 800px;
+font-family: "Red Hat Display";
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 12px; /* 100% */
+letter-spacing: 1.2px;
+text-transform: uppercase;
+}
+
+
+
+.navbar-list li{
+min-width: 120px;
+text-align: center;
+
+}
+
+.navbar-list a{
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar-list a:hover{
+  color: #629087;
+}
+
+
+ul.navbar-list :nth-child(4){
+  margin-left: 20px;
+  }
+
+ul.navbar-list :nth-child(5){
+margin-left: 50px;
+}
+@media screen and (max-width:900px){
+  ul.navbar-list{background-color: #629087;z-index: 1000;}
+  nav.navbar{position:fixed;top: 0;background-color: #629087;width: 100%;}
+  .navbar-list li{width: 100vw;}
+ ul.navbar-list :nth-child(4), ul.navbar-list :nth-child(5){margin-left: 0px;}
+  #logo{margin-right: 10px;}
+}
+.burgernav{
+width: 80px;
+display: none;
+background-color: rgb(255, 255, 255);
+border-radius: 4px;
+border-width: 1px;
+border-style: solid;
+border-color: #629087;
+}
+
+.burgernav:hover{
+  background-color:#629087;
+}
+
+
+@media screen and (max-width:900px){
+ul.navbar-list{display: none;flex-direction:column;position: absolute;top:100px;width: 100%;left: 0px;height: 60vh;font-size: 25px;line-height: normal;}
+ul :nth-child(5){margin: 0;}
+.burgernav{display: block;}
+nav.navbar{padding:30px 80px 0 80px;z-index: 10000;}
+}
+
+ul.navbar-list.show{
+display: flex;
+}
+
+@media screen and (max-width:420px){
+nav.navbar{padding:30px 10px 0 10px;}
+}
+
+
+/* ----------------------------------------- FONTS --------------------------------- */
+
+.centered{
+  text-align: center;
+}
+
+/* ----------- RedHatDisplay ----------- */
+
+
+
+
+.RedHatDisplay14{
+  font-family: "Red Hat Display";
+  font-size: 14px;
+}
+
+
+.RedHatDisplay15{
+  font-family: "Red Hat Display";
+  font-size: 15px;
+}
+
+.RedHatDisplay20{
+  font-family: "Red Hat Display";
+  font-size: 20px;
+}
+
+.RedHatDisplay22{
+  font-family: "Red Hat Display";
+  font-size: 22px;
+}
+
+.RedHatDisplay26{
+  font-family: "Red Hat Display";
+  font-size: 26px;
+}
+
+
+.RedHatDisplay30{
+  font-family: "Red Hat Display";
+  font-size: 30px;
+}
+
+/* ------ Didact Gothic ---------- */
+
+.DidactGothic20{
+font-family: "Didact Gothic";
+font-size: 20px;
+}
+
+.DidactGothic42{
+  font-family: "Didact Gothic";
+  font-size: 42px;
+  }
+
+
+/* -------- Pinyon Script ---------- */
+
+
+.PinyonScript25{
+font-family: "Pinyon Script";
+font-size: 25px;
+}
+
+.PinyonScript50{  
+font-family: "Pinyon Script";
+font-size: 50px;
+}
+
+.PinyonScript55{
+font-family: "Pinyon Script";
+font-size: 55px;
+}
+
+
+/* -------------- Upper ----------------- */
+
+.upp{
+  text-transform: uppercase;
+}
+
+
+.low{
+  text-transform: lowercase;
+}
+
+.cap{
+  text-transform: capitalize;
+}
+
+
+/* --------- align ---------------- */
+
+.right{
+  text-align: right;
+}
+
+/* --------------- lignheight ---------------- */
+
+.lh15{
+  line-height: 15px;
+}
+
+.lh20{
+  line-height: 20px;
+}
+
+
+.lh35{
+  line-height: 35px;
+}
+
+/* -------------- spacing ----------------- */
+
+.s1{
+  letter-spacing: 1px;
+}
+
+.s2{
+  letter-spacing: 2px;
+}
+
+.s3{
+  letter-spacing: 3px;
+}
+
+
+/* --- weight --- */
+
+.w400{
+  font-weight: 400;
+}
+
+.w500{
+  font-weight: 500;
+}
+
+.w600{
+  font-weight: 600;
+}
+
+.w700{
+  font-weight: 700;
+}
+
+/* ----- RedHatDisplay ----- */
+
+text-align: right;
+font-family: Red Hat Display;
+font-size: 13px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.65px;
+text-decoration-line: underline;
+text-transform: uppercase;
+
+
+--------
+
+text-align: center;
+font-family: Red Hat Display;
+font-size: 13px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.65px;
+text-decoration-line: underline;
+text-transform: uppercase;
+
+
+--------------------------------------------------------------------------------------
+
+
+font-family: Red Hat Display;
+font-size: 13.769px;
+font-weight: 400;
+line-height: 15.833px; /* 114.99% */
+
+-----------
+
+text-align: center;
+font-family: Red Hat Display;
+font-size: 13.769px;
+font-weight: 400;
+
+
+------------
+
+
+font-family: Red Hat Display;
+font-size: 13.769px;
+font-weight: 600;
+
+
+------------
+
+
+
+font-family: Red Hat Display;
+font-size: 13.769px;
+font-weight: 700;
+
+
+-----------
+
+
+font-family: Red Hat Display;
+font-size: 13.769px;
+font-weight: 400;
+
+------------
+
+
+
+font-family: Red Hat Display;
+font-size: 13.769px;
+font-weight: 400;
+text-decoration-line: underline;
+
+--------------------------------------------------------------------------------------
+
+
+font-family: Red Hat Display;
+font-size: 14px;
+font-weight: 400;
+
+
+
+----------
+
+
+font-family: Red Hat Display;
+font-size: 14px;
+font-weight: 700;
+
+
+------------
+
+
+text-align: center;
+font-family: Red Hat Display;
+font-size: 14px;
+font-weight: 400;
+
+------------
+
+
+font-family: Red Hat Display;
+font-size: 14px;
+font-weight: 600;
+
+
+--------------------------------------------------------------------------------------
+
+
+text-align: center;
+font-family: Red Hat Display;
+font-size: 15px;
+font-weight: 400;
+
+
+
+--------------
+
+
+font-family: Red Hat Display;
+font-size: 15px;
+font-weight: 700;
+
+
+--------------
+
+
+font-family: Red Hat Display;
+font-size: 15px;
+font-weight: 600;
+line-height: normal;
+
+
+--------------
+
+font-family: Red Hat Display;
+font-size: 15px;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+
+-------------------------------------------------------------------------
+
+font-family: Red Hat Display;             
+font-size: 16px;                 
+font-weight: 600;
+
+-----------
+
+text-align: center;
+font-family: Red Hat Display;
+font-size: 16px;
+font-weight: 500;
+letter-spacing: 0.8px;
+text-transform: uppercase;
+
+-------------
+
+
+text-align: center;
+font-family: Red Hat Display;
+font-size: 16px;
+font-weight: 500;
+text-transform: uppercase;
+
+------------------------------------------------------------------------------------
+
+
+font-family: Red Hat Display;
+font-size: 17px;
+font-style: italic;
+font-weight: 400;
+
+
+------------
+
+text-align: center;
+font-family: Red Hat Display;
+font-size: 17px;
+font-weight: 400;
+
+
+
+------------
+
+
+text-align: right;
+font-family: Red Hat Display;
+font-size: 19.364px;
+font-weight: 400;
+
+
+
+-------------------------------------------------------------------------------
+
+font-family: Red Hat Display;
+font-size: 20px;
+font-weight: 600;
+letter-spacing: 1px;
+
+
+-----------
+
+
+font-family: Red Hat Display;
+font-size: 20px;
+font-weight: 600;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+-------------
+
+font-family: Red Hat Display;
+font-size: 20.533px;
+font-weight: 600;
+letter-spacing: 1.027px;
+text-transform: uppercase;
+
+
+--------------------
+
+
+font-family: Red Hat Display;
+font-size: 20.53px;
+font-weight: 400;
+letter-spacing: 1.027px;
+
+---------------------------------------------------------------
+
+
+text-align: right;
+font-family: Red Hat Display;
+font-size: 21.883px;
+font-weight: 600;  
+letter-spacing: 1.094px;
+text-transform: uppercase;
+
+
+---------------
+
+
+font-family: Red Hat Display;
+font-size: 21.88px;
+font-weight: 600;
+letter-spacing: 1.094px;
+text-transform: uppercase;
+
+------------------------------------------------------------
+
+font-family: Red Hat Display;
+font-size: 22.619px;
+font-weight: 600;
+letter-spacing: 1.131px;
+text-transform: uppercase;
+
+--------------
+
+
+font-family: Red Hat Display;
+font-size: 26px;
+font-weight: 600;
+letter-spacing: 1.3px;
+text-transform: uppercase;
+
+-------------
+
+font-family: Red Hat Display;
+font-size: 26px;
+font-weight: 600;
+letter-spacing: 1.3px;
+
+--------------------------------------------------------------------------------
+
+
+font-family: Red Hat Display;
+font-size: 29.509px;
+font-weight: 600;
+letter-spacing: 1.475px;
+text-transform: uppercase;
+
+
+
+-----------------------------------------------------------------------------------
+
+
+text-align: center;
+font-family: Red Hat Display;
+font-size: 30px;
+font-weight: 600;
+letter-spacing: 3px;
+text-transform: uppercase;
+
+
+---------
+
+text-align: center;
+font-family: Red Hat Display;
+font-size: 30px;
+font-weight: 400;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+
+--------------------------------------------------------------------------------------
+
+text-align: center;
+font-family: Red Hat Display;
+font-size: 39.724px;
+font-weight: 600;
+line-height: 53.846px; /* 135.551% */
+letter-spacing: 1.986px;
+text-transform: uppercase;
+
+
+
+/* ---------------------------------------------------------------------------------------------------------- PAGE HOME --------------------------------------------------------------------------------------------------------------- */
+
+
+/* -------police communes------------- */
+
+.navbar-RedHatDisplay
+{
+color: var(--Black, #000);
+text-align: center;
+font-family: "Red Hat Display";
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 12px;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+}
+
+/*   ----------------police-----------------   */
+
+.RedHatDisplay30
+{
+  font-family: "Red Hat Display";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.RedHat2{
+  font-family: "Red Hat Display";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.RedHat3{
+  font-family: "Red Hat Display";
+  font-size: 26px;
+  font-style: normal;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+}
+
+.Pinyon1{
+  font-family: "Pinyon Script";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.Pinyon2{
+  font-family: "Pinyon Script";
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.Pinyon3{
+  font-family: "Pinyon Script";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90.3px;
+}
+
+/*--------------------- colors ---------------------- */
+
+
+:root {
+  --orange: #CDA482;
+}
+
+:root {
+  --green: #629087;
+}
+
+:root {
+  --purple: #BAA6BE;
+}
+
+:root {
+  --blue: #B5C4DC;
+}
+
+/* ---------------- Index : top page ------------------   */
+
+
+#roseau{
+  /*
+  position: absolute;
+  top: 160px;
+  margin-left: 1150px;
+  width: 486px;
+  height: 691px;
+  */
+  width: 420px;
+    height: 700px;
+    position: absolute;
+    top: -190px;
+    right: 1px;
+    z-index: 10;
+  }
+  
+  .index-title{
+  background-color: #b6b8b746;
+  position: relative;
+  max-width: 1440px;
+  margin: auto;
+  text-align: center;
+  margin-top: 250px;
+  margin-bottom: 250px;
+  }
+  
+  .home-top-page-title span{
+  margin: 5px;
+  }
+  
+  .index-presentation{
+  background-color: #ebf1f0;
+  width: 1440px;
+  min-height: 721px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: "Red Hat Display";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.5px;
+
+  position: relative;
+  
+  /*padding-right: 20px; /* a enlever au responsive */
+  }
+  
+  .index-presentation-container{
+  background-color: #ebf1f0;
+  display: flex;
+  justify-content: center; 
+  gap: 85px;
+  padding-top: 3px;
+  margin-top: 70px;
+  }
+  
+  .index-hidding-box{
+  background-color: #ebf1f0;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  margin-top: 92px;
+  margin-left: 300px;
+  z-index: 1;
+  }
+  
+  .index-presentation-box1{
+  width: 490px;
+  height: 300px;
+  margin-top: 57px;
+  z-index: 1;
+  }
+  
+  .index-presentation-box2{
+  margin-top: 105px; 
+  width: 413px;
+  height: 300px;
+  z-index: 1;
+  position: relative;
+  }
+  
+  .index-presentation-box1 p{  
+  margin-left: 90px;
+  margin-top: 50px;
+  }
+  
+  .index-presentation-bt{
+  background-color: #ebf1f0;
+  height: 50px;
+  width:360px;
+  margin: auto;
+  position: relative;
+  bottom: 40px;
+  z-index: 1;
+  border-style: solid;
+  border-top: 0;
+  border-right:0;
+  border-left:0;
+  border-color: #000;
+  }
+  
+  .autrice{
+  position: absolute;
+  left: 90px;
+  bottom: 20px;
+  background-color: #DEE8E6;
+  }
+  
+  #rond{
+  position: absolute;
+  left: 70%;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  
+  }
+  
+  #trait1{
+  position: absolute;
+  top: -55px;
+  width: 475px;
+  height: 280px;
+    
+  
+  }
+
+  #trait2{
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+    width: 820px;
+    height: 160px;
+      
+    
+    }
+  
+  @media screen and (max-width:1440px){
+  .index-presentation{width: 95%;}
+  .index-presentation-container{width: 100%;}
+  .index-presentation-box1{margin-left:40px;}
+  .index-hidding-box{width: 350px;}
+  /*#rond{left: 75vw;} */
+  #rond{}
+  }
+  
+  @media screen and (max-width:1000px){
+  .index-presentation{width: 95%;display: flex;height: 1000px;}
+  .index-presentation-container{flex-wrap: wrap;gap:0;}
+  .index-hidding-box{display:none;}
+  
+  .index-presentation-box1 p{margin-left: -7px;}
+  .index-presentation-box2{margin-left: 10px;margin-top: 20px;}
+  /*#rond{margin-left: 160px;margin-bottom: 120px;}*/
+  #rond{left: 180px;}
+  .autrice{left: 0;}          
+  .index-presentation-bt{margin: auto;top: 20px;}
+  #trait1, #trait2{display: none;}
+  #roseau{display:none;}
+  }
+  
+  @media screen and (max-width:431px) {
+      #rond{display: none;}
+      .index-presentation{width: 95%;display: flex;height: auto;}
+      .index-presentation-container{height: auto;}
+      .index-presentation-box1{width: 100%;margin: 10px;height: auto;}
+      .index-presentation-box1 p{margin:0;line-height: 15px;}
+      .index-presentation-box2{width: 100%;height: auto;}
+      .index-presentation-box2 p{margin:0;line-height: 15px;}
+      .index-presentation-bt{position: unset;margin: 100px auto;font-size: 10px;width: 220px;}
+      .autrice{position: relative;top: 40px;}
+      
+      
+  }
+  
+  
+  @media screen and (max-width:1340px){
+      #roseau{opacity: 0.3;}
+    }
+    
+    @media screen and (max-width:850px){
+      #roseau{display: none;}
+    }
+  
+  
+  
+  /* --------------------- page HOME : mes services -------------------------------- */
+  
+  
+  .index-mes-services-container{
+  text-align: center;
+  max-width: 1200px; 
+  margin:100px auto 0 auto;
+  background-color: rgb(231, 231, 224);
+  }
+  
+  .index-mes-services-container-bold {
+      font-weight: bold;
+      color: rgb(44, 102, 211);
+      
+  }
+  
+  /* ---------------- INDEX : REC ( Redaction, Edition, Communication ) -------------------- */
+  
+  .index-REC{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  background-color: #e4e4e4;
+  margin: auto;
+  justify-content: center;
+  overflow-x: hidden;
+  }
+  
+  .index-redaction-container{
+  max-width: 370px;
+  /*min-width: 280px;*/
+  border:1px solid black;
+  padding-top: 250px;
+  padding-right: 190px;
+  border-top: none;
+  border-left: none;
+  padding-bottom: 100px;
+  position: relative;
+  }
+  
+  .index-redaction-container h3{       /* a supprimer si inutile */
+  }
+  
+  .index-redaction-container button{
+  border-color: var(--orange);
+  margin-left: 40px;
+  }
+  
+  .index-redaction-container-hider1{
+  width: 280px;
+  height: 20px;
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+  background-color: #e4e4e4;
+  
+  }
+  
+  #index-redaction-container-img{
+  width: 600px;
+  z-index: 1000;
+  position: absolute;
+  top: 15px;
+  left: 160px;
+  }
+  
+  .index-edition-container{
+  max-width: 340px;
+  /*min-width: 280px;*/
+  border:1px solid black;
+  padding-top: 110px;
+  padding-left: 180px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  position: relative;
+  text-align: right;
+  }
+  
+  .index-edition-container h3{
+  line-height: 35px;
+  }
+  
+  .index-edition-container button{
+  border-color: var(--purple);
+  }
+  
+  .index-edition-container-hider1{
+  width: 30px;
+  height: 160px;
+  background-color: #e4e4e4;
+  position: absolute;
+  top: 130px;
+  left: -20px;
+  }
+  
+  .index-edition-container-hider2{
+  width: 30px;
+  height: 75px;
+  position: absolute;
+  top: 620px;
+  left: -20px;
+  background-color: #e4e4e4;
+  }
+  
+  #index-edition-container-img{
+  width: 600px;
+  height: 200px;
+  position: absolute;
+  top: 515px;
+  left: -70px;
+  }
+  
+  
+  .index-redaction-container button, .index-edition-container button, .index-communication-container button{
+  text-align: center;
+  font-family: "Didact Gothic";
+  font-size: 13px;
+  text-transform: uppercase;
+  width: 240px;
+  height: 50px;
+  border-width: 2px;
+  border-style: solid;
+  }
+  
+  .index-communication-container{
+  border:1px solid black;
+  max-width: 480px;
+  position: relative;
+  padding-left: 480px;
+  padding-right: 100px;
+  padding-top: 30px;
+  border: none;
+  }
+  
+  .index-communication-container-mot {
+  color: var(--green);
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: "Pinyon Script";
+  font-size: 55px;
+  }
+  
+  .index-communication-container button{
+  border-color:#B1C3B1;
+  margin-left: 40px;
+  }
+  
+  .index-communication-container h3{
+  line-height: 35px;
+  }
+  
+  #index-communication-container-img{
+  height: 215px;
+  width: 400px;
+  position: absolute;
+  top: 120px;
+  left: 50px;
+  }
+  
+  
+  /* ----------- INDEX : REC ( Redaction, Edition, Communication ) --------------- */
+  
+  
+  @media screen and (max-width:1110px){
+    .index-REC{padding: 0; margin: 0;}
+  .index-redaction-container{border: none;padding: 0;margin-left: 20px;}
+  .index-edition-container{border: none;margin-right: 20px;}
+  .index-communication-container{padding: 0;}
+  
+  .index-redaction-container-hider1{display: none;}
+  .index-edition-container-hider1{display: none;}
+  .index-edition-container-hider2{display: none;}
+  
+  #index-redaction-container-img{width:325px;height:200px;top:200px;left: 250px;}
+  #index-edition-container-img{width:300px;height:120px;top:20px;left: 190px;}
+  #index-communication-container-img{width:200px;height:100px;top:80px;left: 240px;}
+  }
+
+  @media screen and (max-width:929px){
+    .index-edition-container{padding-top: 0;}
+    #index-edition-container-img{width:300px;height:120px;top:25px;left: 40px;}
+  }
+  
+  @media screen and (max-width:550px){
+  #index-redaction-container-img, #index-edition-container-img, #index-communication-container-img{display: none;}
+  
+  .index-redaction-container{text-align:center;border: none;padding: 0;padding-left: 10px;padding-right: 10px;margin: 0;}
+  .index-edition-container{text-align:center;border: none;padding: 0;padding-left: 10px;padding-right: 10px;margin: 0;}
+  .index-communication-container{text-align:center;padding: 0;padding-left: 10px;padding-right: 10px;}
+  
+  .index-redaction-container h3, .index-edition-container h3, .index-communication-container h3{font-size: 30px;}
+  .index-communication-container h3{margin-bottom: 0px;}
+  
+  .index-redaction-container{border: none;}
+  .index-edition-container{border: none;}
+  
+  .index-redaction-container button, .index-edition-container button, .index-communication-container button{display: block;margin: auto;}
+  
+  }
+  
+  
+  
+  
+  /*-------------------------------------------- Index : testimonials ------------------------------------------------- */
+  
+  /* --------------- Carousel ---------------- */
+  
+  .index-carousel{
+  background-color: #a73bbd;
+  max-width: 1440px;
+  height: 520px;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 120px;
+  }
+  
+  .quote{
+  width: 60%;
+  margin: auto;
+  }
+  
+  .swiper {
+  width: 100%;
+  height: 100%; 
+  background-color: #0e4136;
+  }
+  
+  .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #ad78c2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /*margin-top: 100px; */
+  
+  }
+
+  .swiper-content{
+    padding-top: 100px;
+  }
+  
+  .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  }
+  
+  .swiper-button-next{
+  margin-right: 150px;
+  }
+  
+  .swiper-button-prev{
+  margin-left: 150px;  
+  }
+  
+  @media screen and (max-width:1060px) {
+    .quote{width: 30%;}
+    .index-carousel{width: 95%;height: auto;}
+  }
+
+  @media screen and (max-width:650px) {
+    .swiper-button-next{margin: 0;}
+    .swiper-button-prev{margin: 0;}
+    .quote{width: 60%;}
+    .index-carousel-h2{font-size: 30px;}
+  }
+  
+  /* ----------------------------------- Index : Form ------------------------------------- */
+  /*
+  .index-form{
+  margin: auto;
+  background-color: #0c5c2436;
+  max-width: 1027px;
+  height: 1020px;    
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 50px;
+  
+  }
+  
+  .index-form h2{
+  margin: 0;
+  margin-bottom: 30px;
+  }
+  
+  .index-form p{
+  margin-bottom: 60px;
+  }
+  
+  .index-form-fields{
+  text-align: left;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  
+  }
+  
+  .index-form-fields input{
+  margin-bottom: 0px;
+  }
+  
+  .index-form-fields label{
+  width: 100%;
+  margin-left: 380px;
+  
+  }
+  .index-form input{
+  width: 650px;
+  height: 30px;
+  border: none;
+  }
+  
+  .index-form textarea{
+  width: 650px;
+  border: none;
+  resize: none;
+  }
+  
+  .index-form-checkboxandlabel{
+  position: relative;
+  left: 130px;
+  width: 400px;
+  margin-top: 10px;
+  
+  }
+  
+  .index-form-checkboxandlabel label{
+  vertical-align:50%;
+  }
+  
+  .index-form input[type="checkbox"]{
+  width: 20px;
+  
+  }
+  
+  .index-form input[type="submit"]{
+  border-bottom:1px solid black;
+  width: 105px;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-family: "Didact Gothic";
+  letter-spacing: 2px;
+  font-size: 15px;
+  margin-top: 5px;
+  
+  }
+  */
+  /*------------ Index : From responsive ---------------- */
+  
+  @media screen and (max-width:1040px){
+  .index-form{width: 100%;background-color: #4053c0;}
+  .index-form input, .index-form textarea{width: 80%;}
+  .index-form-checkboxandlabel{background-color: #0bf150;width: 95%;left: 0;margin: auto;}
+  .index-form-fields label{margin-left: 20%;}
+  }
+
+  @media screen and (max-width:1040px){
+    .index-form-fields label{margin-left: 0;width: 80%;}
+    
+  }
+
+  /* ------------------------------------------------- FORM 2 -------------------------------------------------- */
+
+.form2{
+  background-color: rgb(214, 214, 155);
+  max-width: 1027px;
+  height: 1000px;
+  margin: auto;
+  padding-top: 70px;
+  margin-bottom: 100px;
+}
+
+.form-title2{
+  border: 1px solid black;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.field{
+  width: 100%;
+}
+
+.field input{
+  width: 652px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.fields{
+  background-color: #80abe4;
+  width: 660px;
+  margin: auto;
+}
+
+.textzone{
+  resize: none;
+  width: 652px;
+}
+
+.form2-check{
+  margin-top: 20px;
+}
+
+#btsub{
+  border: none;
+  border-bottom:1px solid black;
+  width: 110px;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-family: "Didact Gothic";
+  letter-spacing: 2px;
+  font-size: 20px;
+  line-height: 35px;
+  display: block;
+  margin: auto;
+  margin-top: 120px;
+}
+
+.form2 input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+  }
+
+  /* ------------resp */
+
+  @media screen and (max-width: 700px){
+    .fields{width: 95%;}
+    .form2 input, textarea{max-width:99%;}   
+  }
+
+  /*----------------------------------------------------------------------------------------------------------------*/
+
+
+/* ---------------------------------------------------------------------------------- PAGE REDACTION----------------------------------------------------------------------------- */
+
+#redaction-roseau{              
+  width: 330px;
+  height: 573px;
+  position: absolute;
+  top: 180px;
+  
+  left: 50%;
+  transform: translateX(350px);
+  z-index: 10;
+}
+
+@media screen and (max-width:1270px){
+  #edition-roseau{}
+}
+
+
+
+
+.title-redaction{
+  text-align: center;
+   margin-top: 170px;
+   margin-bottom: 50px;
+}
+
+.title-redaction h1{
+  color:#BAA6BE;
+  font-family: "Didact Gothic";
+  font-size: 55px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 53.176px;
+  letter-spacing: 5.5px;
+}
+
+
+
+.title-redaction-p{
+  font-family: "Red Hat Display";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  width: 70%;
+  
+  margin: auto;
+  
+}
+
+
+.title-redaction-green-text{
+color: #629087;
+text-align: center;
+font-family: "Red Hat Display";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 125% */
+text-transform: uppercase;
+margin: auto;
+}
+
+
+#title-redaction-chevron{
+margin-top: 20px;
+}
+
+/* ----------- header responsive -------------- */
+
+
+@media screen and (min-width: 200px) and (max-width: 425px) {  
+  
+  section.top-page{height:800px;width:100%;} 
+  header{margin: 0;}
+}
+
+@media screen and (max-width:375px){
+  .title-redaction h1{font-size: 35px;}
+  .title-redaction-p{width: 290px;background-color: #629087;}
+  
+
+
+}
+
+/* --------------------------------------------------------------------- section n°2 : affiche ------------------------------------------------------------------ */
+
+.redaction-strip{
+display: flex;
+background-color: rgb(226, 51, 7), 203, 131;
+justify-content: space-between;
+height: 717px;
+max-width: 1440px;
+margin: auto;
+margin-bottom: 100px; 
+}
+
+.redaction-box{
+
+width: 50%;
+padding-top: 110px;
+background-color: #0bf150;
+
+
+}
+
+#img-test {
+width: 626px;
+height: 717px;
+margin-left: 20px;
+
+
+}
+
+.redaction-dans{
+  font-family: "Red Hat Display";
+  font-size: 29.509px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 1.475px;
+  text-transform: uppercase;
+  width: 430px;
+  margin-left: 120px;
+  
+  margin-top: 6px;
+
+  background-color: #629087;
+  
+}
+
+.redaction-dans-indent{
+  margin-left: 85px;
+}
+
+.Pinyon1-redaction{
+  font-family: "Pinyon Script";
+  font-size: 62.423px;
+  font-weight: 400;
+  line-height: 40px;
+  text-transform: lowercase;
+  width: 460px;
+}
+
+.redaction-text-container{
+  width: 65%;
+  margin-top: 60px;
+  padding-left: 190px;
+  background-color: #B1C3B1;
+  height: 450px;
+
+}
+.redaction-text-container-p1{
+color: rgb(255, 0, 234);
+font-family: "Red Hat Display";
+font-size: 20px;
+
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 1px;
+}
+
+.redaction-text-container-p2{
+  color: rgb(0, 255, 149)(0, 255, 55);
+  font-family: "Red Hat Display";
+  font-size: 13.769px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15.833px; 
+}
+
+
+.redaction-strip-question-bt {
+margin-top: 70px;
+background-color: #EAE8EB;
+font-family: "Didact Gothic";
+font-size: 20px;
+font-weight: 400;
+line-height: 87.318%; 
+letter-spacing: 1px;
+text-transform: uppercase;
+margin-left: 50px;
+padding-bottom: 15px;
+border-left: none;
+border-right: none;
+border-top: none;
+}
+
+.hr-question{
+border: 1px solid black;
+width: 310px;
+position: relative;
+left: 40px;
+}
+
+@media screen and (max-width:1050px){
+.redaction-dans{width: 330px;}
+.redaction-dans-indent{margin-left: 1px;}
+}
+
+@media screen and (max-width:1160px){
+.redaction-dans{text-wrap:nowrap;}
+}
+
+@media screen and (max-width:1130px){
+.redaction-dans{margin: 0;margin-left: 20px;}
+.redaction-text-container{padding: 0;margin-left: 20px;width:330px;}
+}
+
+@media screen and (max-width:950px){
+
+
+
+#img-test{width: 450px;margin-left: 10px;}
+
+}
+
+
+@media screen and (max-width:827px){
+
+#img-test, #redaction-roseau{display: none;}
+
+.redaction-strip{justify-content: center;}
+.redaction-text-container{width: 100%;margin:0;}
+.redaction-strip-question-bt{margin: auto;display: block;margin-top: 100px;}
+
+.redaction-box{padding-left: 0;width:390px}
+}
+
+
+@media screen and (max-width:400px){
+
+.redaction-box{padding: 0;margin: 0;}
+.redaction-dans{margin:auto;}
+
+}
+
+@media screen and (max-width:375px){
+  .redaction-text-container{width: 250px;margin: auto;}
+  .redaction-dans{width: 250px;text-wrap: wrap;text-align: center;}
+  .redaction-strip{width: 290px;margin: auto;}
+  .redaction-box{width: 290px;}
+}
+
+
+
+/* --------------- section-mid ---------------------- */
+
+.section-mid-h2{
+    text-align: center;
+    font-family: "Red Hat Display";
+    font-size: 39.724px;
+    font-weight: 600;
+    letter-spacing: 1.986px;
+    text-transform: uppercase;
+    margin-bottom: 170px;
+   
+   
+  }
+
+.section-mid{
+  display: flex;
+  max-width: 1440px;
+  flex-direction: column;
+  position: relative;
+  font-family: "Red Hat Display";
+  font-size: 13.769px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: lightblue;
+  margin: auto;
+}
+
+/* ------- images ------------ */
+#trace{
+  position: absolute;
+  bottom: 300px;
+  z-index: 100;
+  
+}
+
+#redaction-img{
+  width: 450px;
+  height: 300px;
+  position: absolute;
+  left:240px;
+  top: 240px;
+  z-index: 1000;
+  
+}
+
+
+/* --------- \/ hiders \/------------ */
+
+.block1-hider{
+  width: 240px;
+  height: 210px;
+  background-color: rgba(95, 247, 81, 0.082);
+  position: absolute;
+  top: 270px;
+  left: 360px;
+
+
+}
+
+.block1-hider2{
+  width: 20px;
+  height: 130px;
+  left: 460px;
+  background-color: rgba(174, 173, 230, 0.212);
+  position: absolute;
+  z-index: 300;
+}
+
+.block1-hider3{
+  width: 160px;
+  height: 11px;
+  top: 394px;
+  left: 0px;
+  background-color: rgba(35, 202, 57, 0.295);
+  position: absolute;
+  
+  
+  
+}
+
+.block1-hider4{
+  width: 100px;
+  height: 280px;
+  background-color: #a939dd3f;
+  position:absolute;
+  left: -30px;
+  top: -20px;
+  z-index: -4000;
+
+}
+
+.block2-hider{
+  position: absolute;
+  width: 110px;
+  height: 30px;
+  top: 390px;
+  right: -20px;
+  background-color: #e2782234;
+  z-index: 300;
+}
+
+.block3-hider{
+  position: absolute;
+  width: 30px;
+  height: 40px;
+  top: 370px;
+  right:-10px;
+  background-color: #884f2125;
+  z-index: 300;
+
+}
+
+
+/*  ------------ hyphen ------------- */
+
+.block1-hyphen{
+  width: 40px;
+  position: absolute;
+  left: 1px;
+  top: 20px;
+  border: 1px solid #629087;
+  z-index: 6;
+  
+}
+
+.block2-hyphen{
+  width: 40px;
+  position: absolute;
+  left: 130px;
+  top:70px;
+  border: 1px solid #629087;
+
+}
+
+.block3-hyphen{
+  width: 40px;
+  position: absolute;
+  left: 1px;
+  top: 140px;
+  border: 1px solid #629087;
+  
+}
+
+.block4-hyphen{
+  width: 40px;
+  position: absolute;
+  left: 110px;
+  top: 80px;
+  border: 1px solid #629087;
+  
+}
+
+
+
+
+
+
+.section-mid-strip1{
+  display: flex;
+  margin: auto;
+  height: 400px;
+  
+  
+}
+
+
+
+
+
+
+
+
+
+/*
+.green{
+  color: var(--Black, #629087);
+
+font-family: "Red Hat Display";
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+z-index: 10;
+}
+
+*/
+
+
+.block3-green{
+  color: var(--Black, #629087);
+
+  font-family: "Red Hat Display";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 290px;
+}
+
+.section-mid-orange-link.web{
+
+  width: 350px;
+
+}
+.bloc1{
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+  
+  padding-right: 120px;
+  z-index: 100;
+  width: 350px;
+  position: relative;
+  
+  
+}
+
+.bloc1 p hr h3{
+  z-index: 4;
+}
+
+
+
+
+.bloc1 , .bloc2 , .bloc3 , .bloc4{
+  position: relative;
+  width: 350px;
+}
+
+.bloc1 h3 , .bloc2 h3 , .bloc3 h3 , .bloc4 h3{
+  font-family: "Didact Gothic";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-left: 60px;
+}
+
+.bloc2{
+  border: 1px solid black;
+  padding-top: 45px;
+  padding-left: 130px;
+  border-top: none;
+  border-right: none;
+}
+
+
+/* ------------------- */
+/* --------- 2 ------ */
+
+.section-mid-strip2{
+  display: flex;
+  margin: auto;
+  
+}
+
+.bloc3{
+  border: 1px solid black;
+  border-left: none;
+  border-bottom: none;
+  border-top: none;
+  padding-top: 120px;
+  padding-right: 100px;
+  width: 380px;
+}
+
+.bloc4{
+  border: 1px solid black;
+  border-right: none;
+  border-bottom: none;
+   padding-left: 110px; 
+  
+  padding-top: 60px;
+  width: 384px;
+  
+}
+
+.section-mid-orange-link.medias{
+  color: red;
+  color: var(--Desert-carnation, #CDA482);
+  width: 250px;
+  text-align: right;
+  font-family: "Red Hat Display";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.65px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  display: flex;
+  margin-left: 80px;
+  position:relative;
+  z-index: 100;
+}
+
+.section-mid-orange-link{
+  color: var(--Desert-carnation, #CDA482);
+  display: block;
+  text-align: right;
+  font-family: "Red Hat Display";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.65px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  width: 260px;
+  position:relative;
+  z-index: 100;
+}
+
+.section-mid-orange-link.magazine{
+  color: var(--Desert-carnation, #CDA482);
+  display: block;
+  text-align: right;
+  font-family: "Red Hat Display";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.65px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  width: 300px;
+  position:relative;
+  left: 60px;
+}
+
+
+.section-mid-bt{
+  width: 235px;
+  height: 47px;
+  margin: auto;
+  margin-top: 150px;
+  border:none;
+
+ 
+  font-family: "Didact Gothic";
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: #629087;
+  color: white;
+
+}
+
+
+
+
+@media screen and (max-width:1000px){
+  .section-mid{min-width: 290px;}
+  #trace{opacity: 0.2;}
+  #redaction-img{top: -250px;left: 150px;}
+  .section-mid-strip1{flex-direction: column;margin-bottom: 350px;}
+  .section-mid-strip2{flex-direction: column;}
+
+  .block1-hider{display: none;}
+  .block1-hider2{display: none;}
+  .block1-hider3{display: none;}
+  .block1-hider4{display: none;}
+  .block2-hider{display: none;}
+  .block3-hider{display: none;}
+
+
+  .bloc1{margin:auto auto 50px auto;border: none;padding: 0;width: 250px;}
+  .bloc2{margin:auto;border: none;padding: 0;width: 250px;}
+  .bloc3{margin:auto auto 50px auto;border: none;margin-left: 10px;padding: 0;width: 250px;}
+  .bloc4{margin: 0;border: none;width: 350px;padding: 0;width: 250px;}
+
+  .block4-hyphen{left: 0;top: 20px;}
+
+  .section-mid-orange-link.medias{margin: 0;text-wrap: wrap;text-align: left;}
+  .section-mid-orange-link.presse{left: 0;text-wrap: wrap;margin: 0;}
+  .section-mid-orange-link.magazine{z-index: 102;left: 0;text-wrap: wrap;width: auto;text-align: left;}
+  .section-mid-orange-link.web{left: 0;text-wrap: wrap;width: 250px;text-align: left;}
+
+  .bloc3 h3, .bloc3 p{z-index: 102;position: relative;}
+  .block2-hyphen{left: 0;top: 20px;}
+  .block3-hyphen{z-index: 102;top: 20px;}
+  
+  .block3-hider{width: 200px;height:300px;left: 0;top: 110px;background-color: lightblue;z-index: 100;}
+
+  
+
+  @media screen and (max-width:735px){
+    #redaction-img{display: none;}
+  }
+
+  @media screen and (max-width:375px){
+    .block1-hyphen{display: none;}
+    .block2-hyphen{display: none;}
+    .block3-hyphen{display: none;}
+    .block4-hyphen{display: none;}
+
+    .bloc1 h3 , .bloc2 h3 , .bloc3 h3 , .bloc4 h3{text-align: center;margin: 0;}
+    .block3-green{width: 250px;}
+  }
+}
+
+
+  /* ----------- page redaction couverture ------------ */
+
+ 
+  .page-redaction-couverture{
+    color: #FFF;
+    background-image: url("./ressources/91-magazine-agO-E_DGv_4-unsplash 1.png");
+    background-repeat:round;
+    background-size: cover;
+    
+    
+    max-width: 1440px;
+    height: 785px;
+    margin: auto;
+    
+    
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+ 
+
+  .page-redaction-couverture h2{
+    text-align: center;
+    font-family: "Red Hat Display";
+    font-size: 39.724px;
+    font-weight: 600;
+    line-height: 53.846px;
+    letter-spacing: 1.986px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    padding-top: 45px;
+    
+  }
+
+  .page-redaction-couverture-boxes{
+    display: flex;
+    margin:10px auto 10px auto;
+    width: 80%;
+    height: 350px;
+    font-family: "Red Hat Display";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15.833px;
+    
+    
+    
+  }
+
+  .page-redaction-couverture h3{
+    text-align: center;
+    font-family: "Didact Gothic";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 87.318%;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+
+  
+
+  hr.page-redaction-couverture-diagonal{
+    height: 10px;
+    width: 150px;
+    rotate: 120deg;
+    margin-top: 130px;
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    
+    
+    
+  }
+
+
+  .redaction-de{
+    width: 290px;
+    text-align: center;
+    
+    
+    
+  }
+
+  .redaction-de h3{
+    text-align: center;
+  }
+
+  .redaction-de li{ 
+    list-style-type: "• ";
+    line-height: normal;
+  }
+  .redaction-de p{
+    margin: 0;
+    
+  }
+
+
+  .page-redaction-couverture-box-garanties{
+    
+    
+    width: 270px;
+    
+   
+    text-align: center;
+    padding-left:70px;
+    padding-right:70px;
+  }
+
+  .page-redaction-couverture-box-garanties h3{
+    text-align: center;
+  }
+  .page-redaction-couverture-box-garanties li{
+    list-style-type: "• ";   
+    line-height: normal;
+  }
+
+
+  .traduction{
+    width: 220px;
+    text-align: center;
+    
+    
+    
+
+  }
+
+  .traduction p{
+    line-height: normal;
+    
+    margin: 0;
+  }
+
+  .page-redaction-couverture-bt{
+    width: 200px;
+    border: 2px solid white;
+    
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-bottom: 10px;
+    margin: 50px auto 0 auto;
+    color: #ffffff;
+    background-color: #fff0;
+
+    font-family: "Didact Gothic";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 87.318%; 
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+
+  /* ----------------- et si on alimentait : responsive ------------------ */
+
+  @media screen and (max-width:1330px){
+    .creons-ouvrage{width: 90%;}
+    .traduction{}
+    .page-redaction-couverture-bt{margin: 100px auto 0 auto;}
+  }
+
+  @media screen and (max-width:920px){
+    hr.page-redaction-couverture-diagonal{display: none;}
+  }
+
+  @media screen and (max-width:760px){
+
+    .page-redaction-couverture-box-garanties{padding: 0;margin-top: 50px;margin-bottom: 50px;}
+    .page-redaction-couverture-box-garanties h3{text-align: center;}
+    
+    .traduction{padding: 0;}
+    
+    .page-redaction-couverture-boxes{flex-direction: column;height: 100%;align-items: center;}
+    .page-redaction-couverture{height: 100%;}
+    .page-redaction-couverture-bt{margin: 50px auto 25px auto;}
+    
+  }
+
+
+  @media screen and (max-width:375px){
+    .page-redaction-couverture{min-width: 290px;}
+    .page-redaction-couverture h2{width: 290px;}
+  }
+
+
+
+  /* ----------------- bt + footer ------------------- */
+
+  .page-redaction-button-questions{
+    max-width: 950px;
+    
+    
+    gap: 212px;
+    
+    padding-top: 177px;
+    display: flex;
+    margin: auto;
+    
+    padding-left: 9%;
+   
+
+
+    
+  }
+
+  .page-redaction-button-questions button{
+    width: 311px;
+    height: 81px;
+    font-family: "Red Hat Display";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    border:1px solid #B1C3B1;
+    background-color: white;
+
+    
+
+  }
+
+  .page-redaction-button-questions button:nth-child(1){
+    border-color: #BAA6BE;
+    
+  }
+
+  .page-redaction-button-questions span{
+    
+    font-style: italic;
+  }
+
+  .page-redaction-button-questions a{
+    color:#CDA482;
+    width: 25%;
+    text-align: right;
+    text-decoration: none;
+    font-family: "Red Hat Display";
+    font-size: 19.364px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 16px;
+    margin-right: 20px;
+    
+    
+  }
+
+  @media screen and (max-width:1040px){
+    .page-redaction-button-questions{height:100%;flex-wrap: wrap;justify-content: center;padding: 0;margin-top: 177px;}
+    .page-redaction-button-questions a{text-wrap: nowrap;text-align: center;width: 310px;margin: 0;}
+  }
+
+
+
+  
+
+/* --------------------------------------------------------------------------------------------------------- PAGE EDITION ------------------------------------------------------------------------------------------------------------- */
+
+#edition-roseau{              
+  width: 330px;
+  height: 573px;
+  position: absolute;
+  top: 180px;
+  
+  left: 50%;
+  transform: translateX(350px);
+  z-index: 10;
+}
+
+@media screen and (max-width:1270px){
+  #edition-roseau{}
+}
+
+/*------------------- logo + navbar ( ancien ) --------------------- 
+
+#logo{
+  width: 149px;
+  height: 52px;  
+}
+
+.burgernav{
+  display: none;
+  width: 60px;
+  height: 52px;
+}
+
+section.top-page{ 
+  padding-bottom: 50px; 
+  position: relative;
+}
+
+nav{
+ display: flex;
+  list-style: none;
+  width: 900px;
+  justify-content: space-around;
+  font-family: "Red Hat Display";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px; 
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+  .contact{
+  list-style: none;
+  font-family: "Red Hat Display";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px; 
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  }
+
+header{
+    display: flex;
+    align-items: center;
+    
+    margin-left: 78px;
+    margin-right: 78px;
+    padding-top: 33px;
+    justify-content:space-between;
+    
+}
+*/
+
+/* ------------ navbar responsive ------------ 
+
+    @media screen and (max-width: 885px){
+    nav{display:none}
+    .burgernav{display:block}
+    .contact{display:none}
+
+    .nav li{
+      
+    }
+
+    }*/
+/* ------------------- main title ------------------ */
+
+.title-edition{
+    text-align: center;
+     margin-top: 170px;
+     
+     margin-bottom: 50px;
+}
+  
+.title-edition h1{
+    color:#BAA6BE;
+    font-family: "Didact Gothic";
+    font-size: 55px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 53.176px;
+    letter-spacing: 5.5px;
+}
+
+
+
+.title-edition-p{
+    font-family: "Red Hat Display";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 70%;
+    min-width: 274px;
+    margin: auto;
+    
+}
+
+
+.title-edition-green-text{
+  color: #629087;
+  text-align: center;
+  font-family: "Red Hat Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  text-transform: uppercase;
+}
+
+
+#chevron{
+  margin-top: 35px;
+}
+
+/* ----------- header responsive -------------- */
+
+
+  @media screen and (min-width: 200px) and (max-width: 425px) {  
+    
+    section.top-page{height:800px;width:100%;} 
+    header{margin: 0;}
+}
+
+/* --------------------------------------------------------------------- section n°2 : affiche ------------------------------------------------------------------ */
+
+.edition-strip{
+  display: flex;
+  background-color: #EAE8EB;
+  justify-content: space-between;
+  height: 717px;
+  max-width: 1440px;
+  margin: auto;
+  margin-bottom: 100px; 
+}
+
+.edition-box{
+  
+  width: 50%;
+  padding-top: 110px;
+  
+  
+}
+
+#img-test {
+  width: 626px;
+  height: 717px;
+  margin-left: 20px;
+  
+  
+}
+
+.de-la{
+    font-family: "Red Hat Display";
+    font-size: 29.509px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 1.475px;
+    text-transform: uppercase;
+    width: 430px;
+    margin-left: 120px;
+    
+    margin-top: 6px;
+    
+}
+
+.de-la-indent{
+    margin-left: 110px;
+}
+
+.Pinyon1-edition{
+    font-family: "Pinyon Script";
+    font-size: 62.423px;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: lowercase;
+    width: 460px;
+}
+
+.box-p{
+    width: 60%;
+    margin-top: 60px;
+    padding-left: 190px;
+    
+  
+}
+.strongline{
+  
+  font-family: "Red Hat Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15.833px; 
+  letter-spacing: 1px;
+}
+
+.box-p p{
+    
+    font-family: "Red Hat Display";
+    font-size: 13.769px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.833px; 
+}
+
+.strip-question{
+  margin-top: 70px;
+}
+
+
+.strip-question-bt {
+  background-color: #EAE8EB;
+  font-family: "Didact Gothic";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 87.318%; 
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 60px;
+  padding-bottom: 15px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.hr-question{
+  border: 1px solid black;
+  width: 310px;
+  position: relative;
+  left: 40px;
+}
+
+@media screen and (max-width:1050px){
+  .de-la{width: 330px;}
+  .de-la-indent{margin-left: 1px;}
+}
+
+@media screen and (max-width:1160px){
+  .de-la{text-wrap:nowrap;}
+}
+
+@media screen and (max-width:1130px){
+  .de-la{margin: 0;margin-left: 20px;}
+  .box-p{padding: 0;margin-left: 20px;width:330px;}
+}
+
+@media screen and (max-width:950px){
+  
+  
+  
+  #img-test{width: 450px;margin-left: 10px;}
+
+}
+
+
+@media screen and (max-width:827px){
+  
+  #img-test, #edition-roseau{display: none;}
+  
+  .edition-strip{justify-content: center;}
+  
+
+  
+  .edition-box{padding-left: 40px;width:390px}
+}
+
+
+@media screen and (max-width:400px){
+  .edition-strip{min-width: 350px;}
+  .edition-box{padding: 0;margin: 0;}
+}
+
+
+
+
+
+  /* ------------------------ section n°3 : "VOTRE HISTOIRE MA PLUME" ------------------------- */
+
+  .votre-histoire-title{
+    
+    text-align: center;
+    font-family: "Red Hat Display";
+    font-size: 39.724px;
+    font-weight: 600;
+    line-height: 53.846px; 
+    letter-spacing: 1.986px;
+    text-transform: uppercase;
+    height:140px;
+    margin-top: 110px;
+    margin-bottom: 60px;
+    
+  }
+
+  .votre-histoire{
+    display: flex;
+    justify-content: center;
+    
+    position: relative;
+  }
+
+  .votre-histoire-box1{
+    position: relative;
+    margin-top: 210px;
+    width: 450px;
+    height: 100%;
+    margin-right: 80px;
+    margin-left: 10px;
+    padding-left: 60px;
+    
+    
+
+
+    
+  }
+
+  .votre-histoire-box2{
+    position: relative;
+    width: 400px;
+    min-width: 300px;
+    height: 100%;
+    padding-left: 60px;
+    margin-left:20px;
+    margin-right:10px;
+    
+    
+  }
+
+  
+
+  .tasse{
+      width: 38px;
+      position: absolute;
+    left: 1px;
+    top: 80px;
+      
+      border: 1px solid  #629087;
+
+  }
+
+
+  
+
+  #votre-histoire-img{
+    width: 680px;
+    height: 400px;
+    position: absolute;
+    
+    right: 100px;
+    
+    bottom: 470px;
+    
+    
+    
+    
+  }
+
+  .votre-histoire-strongline{
+    font-family: "Red Hat Display";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color: #629087;
+  }
+
+  .votre-histoire-box1h3{
+
+    text-align: left;
+    font-family: "Didact Gothic";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    
+    
+    
+  }
+
+    .bol{
+      width: 35px;
+      position: absolute;
+      top:100px;
+      left: 1px;
+      border: 1px solid  #629087;
+    }
+
+    
+  .votre-histoire-box1-p1 , .votre-histoire-box2-p1{
+    font-family: "Red Hat Display";
+    font-size: 13.769px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.833px;
+    padding-top: 19px;
+    
+    
+  }
+
+  .votre-histoire-box1-p2 {
+    color: var(--Violet-fonc, #BAA6BE);
+    font-family: "Red Hat Display";
+    font-size: 13px;
+    margin-right: 20px;
+    font-weight: 500;
+    letter-spacing: 0.65px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    text-align: center;
+    
+    
+  }
+
+  .votre-histoire-box2h3{
+    font-family: "Didact Gothic";
+    font-size: 35px;
+    
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    
+    
+  }
+
+  .votre-histoire-box2-p2 {
+    color: var(--Violet-fonc, #BAA6BE);
+    font-family: "Red Hat Display";
+    font-size: 13px;
+    text-align: right;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.65px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    
+  }
+
+  .votre-histoire-vertical-line{   
+    position: absolute;
+    border:1px solid #629087;
+    border-width: 0 2px 0 0;
+    width: 5px;
+    height: 450px;
+    top: 50px;
+    left: 50%;
+  }
+
+
+  .et-si-bt{
+    margin: auto;
+    display: block;
+    width: 293px;
+    height: 70px;
+    color: #FFF;
+    background-color: #629087;
+    border: none;
+    margin:150px auto 185px auto;
+
+    text-align: center;
+    font-family: "Didact Gothic";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+
+  /* ---------VOTRE HISTOIRE MA PLUME : RESPONSIVE -----------*/
+
+ 
+
+  @media screen and (max-width:840px){
+    .votre-histoire{flex-direction: column;}
+    .votre-histoire-box1{margin:0;width:100%;height: 100%;}
+    .votre-histoire-box2{margin:0;width: 100%;}
+    .votre-histoire-vertical-line{display:none;}
+    #votre-histoire-img{display: none;}
+    .votre-histoire-box2-p2{margin-right: 80px;}
+  }
+
+  @media screen and (max-width:1040px){
+    #votre-histoire-img{right: -80px;top: -340px;}
+    
+    
+  }
+
+/* test */
+  @media screen and (max-width:400px){   
+
+    .votre-histoire-box1{padding:0;margin:0;min-width:350px;height: 100%;}
+    .votre-histoire-box2{padding:0;margin:0;min-width:350px}
+
+  }
+
+  /* ----------------- créons l'ouvrage d evotre imagination ------------------ */
+
+
+  .page-edition-couverture{
+    color: #FFF;
+    background-image: url("./ressources/olga-tutunaru-JMATuFkXeHU-unsplash 1.png");
+    background-repeat:round;
+    background-size: cover;
+    
+    
+    max-width: 1440px;
+    height: 785px;
+    margin: auto;
+    
+    
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+
+
+  .page-edition-couverture h2{
+    text-align: center;
+    font-family: "Red Hat Display";
+    font-size: 39.724px;
+    font-weight: 600;
+    line-height: 53.846px;
+    letter-spacing: 1.986px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    padding-top: 45px;
+    
+  }
+
+  .page-edition-couverture-boxes{
+    display: flex;
+    margin:10px auto 10px auto;
+    width: 80%;
+    height: 350px;
+    font-family: "Red Hat Display";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15.833px;
+    
+    
+    
+  }
+
+  .page-edition-couverture h3{
+    text-align: center;
+    font-family: "Didact Gothic";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 87.318%;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+
+  
+
+  hr.page-edition-couverture-diagonal{
+    height: 10px;
+    width: 150px;
+    rotate: 120deg;
+    margin-top: 130px;
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    
+    
+    
+  }
+
+
+  .édition-de{
+    width: 300px;
+    
+    
+    
+  }
+
+  .édition-de h3{
+    text-align: left;
+  }
+
+  .édition-de li{ 
+    list-style-type: "• ";
+    line-height: normal;
+  }
+  .édition-de p{
+    margin: 0;
+    
+  }
+
+
+  .garanties{
+    
+    
+    width: 250px;
+    
+   
+    
+    padding-left:70px;
+    padding-right:70px;
+  }
+  .garanties li{
+    list-style-type: "• ";   
+    line-height: normal;
+  }
+
+
+  .impression{
+    width: 220px;
+    
+    
+    
+
+  }
+
+  .impression p{
+    line-height: normal;
+    
+    margin: 0;
+  }
+
+  .page-edition-couverture-bt{
+    width: 200px;
+    border: 2px solid white;
+    
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-bottom: 10px;
+    margin: 50px auto 0 auto;
+    color: #ffffff;
+    background-color: #fff0;
+
+    font-family: "Didact Gothic";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 87.318%; 
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+
+  /* ----------------- créons l'ouvrage d evotre imagination : responsive ------------------ */
+
+  @media screen and (max-width:1330px){
+    .creons-ouvrage{width: 90%;}
+    .impression{padding-left:30px;}
+    .page-edition-couverture-bt{margin: 100px auto 0 auto;}
+  }
+
+  @media screen and (max-width:920px){
+    hr.page-edition-couverture-diagonal{display: none;}
+  }
+
+  @media screen and (max-width:760px){
+
+    .garanties{padding: 0;}
+    .garanties h3{text-align: left;}
+    
+    .impression{padding: 0;}
+    .impression h3{text-align: left;}
+    .page-edition-couverture-boxes{flex-direction: column;height: 100%;}
+    .page-edition-couverture{height: 100%;}
+    .page-edition-couverture-bt{margin: 50px auto 25px auto;}
+    
+  }
+
+
+  @media screen and (max-width:400px){
+    .page-edition-couverture{min-width: 350px;}
+  }
+ 
+
+
+
+
+  /* ----------- contact --------------- */
+
+
+
+  
+
+  .page-edition-button-questions{
+    max-width: 950px;
+    
+    
+    gap: 58px;
+    
+    padding-top: 177px;
+    display: flex;
+    margin: auto;
+    
+    padding-left: 9%;
+   
+
+
+    
+  }
+
+  .page-edition-button-questions button{
+    width: 311px;
+    height: 81px;
+    font-family: "Red Hat Display";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    border:1px solid #B1C3B1;
+    background-color: white;
+
+    
+
+  }
+
+  .page-edition-button-questions button:nth-child(1){
+    border-color: #BAA6BE;
+    
+  }
+
+  .page-edition-button-questions span{
+    
+    font-style: italic;
+  }
+
+  .page-edition-button-questions a{
+    color:#CDA482;
+    width: 25%;
+    text-align: right;
+    text-decoration: none;
+    font-family: "Red Hat Display";
+    font-size: 19.364px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 16px;
+    margin-right: 20px;
+    
+    
+  }
+
+  @media screen and (max-width:1040px){
+    .page-edition-button-questions{height:100%;flex-wrap: wrap;justify-content: center;padding: 0;margin-top: 177px;}
+    .page-edition-button-questions a{text-wrap: nowrap;text-align: center;width: 310px;margin: 0;}
+  }
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------- PAGE Marketing ------------------------------------------------------------------------------------------------------------- */
+
+
+/* ----------- header responsive -------------- */
+
+
+@media screen and (min-width: 200px) and (max-width: 425px) {  
+  
+  section.top-page{height:800px;width:100%;} 
+  header{margin: 0;}
+}
+
+@media screen and (max-width:375px){
+  .title-redaction h1{font-size: 35px;}
+  .title-redaction-p{width: 290px;background-color: #629087;}
+
+}
+
+#marketing-roseau{              
+  width: 330px;
+  height: 573px;
+  position: absolute;
+  top: 180px;
+  
+  left: 50%;
+  transform: translateX(350px);
+  z-index: 10;
+}
+
+@media screen and (max-width:1270px){
+  #edition-roseau{}
+}
+
+
+
+
+.title-marketing{
+  text-align: center;
+   
+   max-width: 1080px;
+   background-color: #64ee5752;
+   margin: 170px auto 50px auto;
+}
+
+.title-marketing h1{
+  color:#BAA6BE;
+  font-family: "Didact Gothic";
+  font-size: 55px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 53.176px;
+  letter-spacing: 5.5px;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+
+
+.title-marketing-p{
+  font-family: "Red Hat Display";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  width: 70%;
+  
+  margin: auto;
+  
+}
+
+
+.title-marketing-green-text{
+color: #629087;
+text-align: center;
+font-family: "Red Hat Display";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 125% */
+text-transform: uppercase;
+margin: auto;
+}
+
+
+#title-marketing-chevron{
+margin-top: 20px;
+}
+
+
+/* ---------------------------------------------- Marketing strip  ----------------------------------------------------- */
+
+.marketing-strip{
+  display: flex;
+  background-color: rgb(226, 51, 7), 203, 131;
+  justify-content: space-between;
+  height: 717px;
+  max-width: 1440px;
+  margin: auto;
+  margin-bottom: 100px; 
+  }
+  
+  .marketing-box{
+  
+  width: 50%;
+  padding-top: 110px;
+  background-color: #0bf150;
+  
+  
+  }
+  
+  #img-test {
+  width: 626px;
+  height: 717px;
+  margin-left: 20px;
+  
+  
+  }
+  
+  .marketing-ecriture-digitale{
+    font-family: "Red Hat Display";
+    font-size: 29.509px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 1.475px;
+    text-transform: uppercase;
+    width: 560px;
+     margin-left: 120px;
+     
+   
+    text-wrap: nowrap;
+    margin-top: 6px;
+  
+    background-color: #629087;
+    
+  }
+  
+  .marketing-ecriture-digitale-indent{
+    margin-left: 85px;
+  }
+  
+  .Pinyon1-marketing{
+    font-family: "Pinyon Script";
+    font-size: 62.423px;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: lowercase;
+    width: 460px;
+  }
+  
+  .marketing-text-container{
+    width: 63%;
+    margin-top: 60px;
+    padding-left: 190px;
+    background-color: #B1C3B1;
+    height: 450px;
+  
+  }
+  .marketing-text-container-p1{
+    font-family: "Red Hat Display";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17.9px;
+    
+  }
+  
+  
+  
+  
+  .marketing-strip-question-bt {
+  margin-top: 70px;
+  background-color: #EAE8EB;
+  font-family: "Didact Gothic";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 87.318%; 
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-left: 60px;
+  padding-bottom: 15px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  width: 310px;
+  text-wrap: nowrap;
+  text-indent: -120px;
+  }
+  
+  .hr-question{
+  border: 1px solid black;
+  width: 310px;
+  position: relative;
+  left: 40px;
+  }
+
+  @media screen and (max-width:1330px){
+    .marketing-box{padding-top: 30px;}
+    .marketing-ecriture-digitale{margin-left: 10px;width: auto;text-wrap: wrap;}
+    .marketing-ecriture-digitale-indent{margin-left: 0;}
+    .marketing-strip-question-bt{margin-left: 30px;font-size: 14px;text-indent: -40px;margin-top: 20px;}
+    .marketing-text-container{padding-left: 30px;background-color: #CDA482;max-height: 450px;}
+  }
+  
+ 
+  
+  @media screen and (max-width:1160px){
+  .marketing-ecriture-digitale{text-wrap:wrap;}
+  .marketing-text-container{width: 330px; height: 440px;}
+  }
+  
+  
+  @media screen and (max-width:1070px){
+  #img-test{width: 450px;margin-left: 10px;}
+  }
+  
+  
+  @media screen and (max-width:890px){
+  
+  #img-test, #marketing-roseau{display: none;}
+  .marketing-ecriture-digitale{text-align: center;margin: auto;}
+  .marketing-strip{justify-content: center;}
+  .marketing-text-container{padding: 0;margin: auto;}
+  .marketing-strip-question-bt{margin: auto;display: block;margin-top: 100px;}
+  
+  .marketing-box{padding-left: 0;width:390px}
+  }
+  
+
+
+
+
+  
+  @media screen and (max-width:400px){
+
+  .marketing-strip-question-bt{width: 250px;text-wrap: wrap;margin-top: 30px;text-indent:0px;}
+  }
+  
+  @media screen and (max-width:375px){
+    .marketing-text-container{width: 250px;margin: auto;}
+    .marketing-ecriture-digitale{width: 250px;text-wrap: wrap;text-align: center;}
+    .marketing-strip{width: 290px;margin: auto;}
+    .marketing-box{width: 290px;}
+  }
+
+
+
+
+  /* -------------------- marketing : section mid -------------------------- */
+
+
+  .marketing-section-mid{
+    display: flex;
+    max-width: 1440px;
+    min-width: 290px;
+    flex-direction: column;
+    position: relative;
+    font-family: "Red Hat Display";
+    font-size: 13.769px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.833px;
+    background-color:rgb(225, 238, 255);
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .marketing-section-mid-h2{
+    text-align: center;
+    font-family: "Red Hat Display";
+    font-size: 39.724px;
+    font-weight: 600;
+    letter-spacing: 1.986px;
+    text-transform: uppercase;
+    margin-bottom: 150px;
+    line-height: 50px;
+   
+  }
+
+  /* ------- images ------------ */
+
+  #marketing-section-mid-img{
+    width: 390px;
+    height: 219px;
+    position: absolute;
+    left:330px;
+    top: 270px;
+    z-index: 1000;
+    
+  }
+
+
+
+  #marketing-section-mid-vector{
+    position: absolute;
+    width: 720px;
+    height: 770px;
+    left: 50%;
+    top: 280px;
+    
+
+
+    
+  }
+
+/* --------- all blocks --------- */
+
+.marketing-section-mid-strip1-block1 , .marketing-section-mid-strip1-block2 , .marketing-section-mid-strip2-block1 , .marketing-section-mid-strip2-block2{
+  position: relative;
+  width: 400px;
+}
+
+.marketing-section-mid-strip1-block1 h3 , .marketing-section-mid-strip1-block2 h3 , .marketing-section-mid-strip2-block1 h3 , .marketing-section-mid-strip2-block2 h3{
+  font-family: "Didact Gothic";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 95%;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-left: 60px;
+}
+
+/* ---------- greentext ---------- */
+
+.greentext{
+  color: var(--Black, #629087);
+
+font-family: "Red Hat Display";
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+
+
+
+
+
+/* ------------- MARKETING SECTION MID STRIP 1 ------------ */
+
+
+.marketing-section-mid-strip1{
+  display: flex;
+  margin: auto;
+  height: 420px;
+  z-index: 0;
+  min-width: 290px;
+  
+}
+
+
+.marketing-section-mid-strip1-block1{
+  border: 2px solid #629087;
+  border-top: none;
+  border-left: none;
+  
+  padding-right: 130px;
+  
+  width:380px;
+  position: relative;
+  
+  
+}
+
+.marketing-section-mid-strip1-block1 h3{
+  width: 200px;
+  
+}
+
+
+
+.marketing-section-mid-strip1-block2{
+  border: 2px solid #629087;
+  padding-top: 25px;
+  padding-left: 60px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 420px;
+  z-index: -1;
+}
+
+
+.marketing-section-mid-strip1-block2-link{
+  display: flex;
+  flex-direction: row-reverse;
+  color: #B1C3B1;
+  font-family: "Red Hat Display";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.65px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  width: 260px;
+  margin-top: 30px;
+
+}
+
+
+
+
+
+/* ------------- MARKETING SECTION MID STRIP 2 ------------ */
+
+.marketing-section-mid-strip2{
+  display: flex;
+  margin: auto;
+  height: 365px;
+  min-width: 290px;
+  
+  
+}
+
+.marketing-section-mid-strip2-block1{
+  
+  
+  padding-top: 120px;
+  padding-right: 100px;
+  width: 400px;
+}
+
+.marketing-section-mid-strip2-block2{
+  
+  
+  
+  padding-top: 100px;
+  width: 400px;
+  
+}
+
+
+.marketing-section-mid-strip2-block2-underline{
+  text-decoration: underline;
+  
+}
+
+/*  ------------ hyphen ------------- */
+
+.marketing-section-mid-strip1-block1-hyphen{
+  width: 40px;
+  position: absolute;
+  left: 1px;
+  top: 25px;
+  border: 1px solid #629087;
+  z-index: 6;
+  
+}
+
+.marketing-section-mid-strip1-block2-hyphen{
+  width: 40px;
+  position: absolute;
+  
+  top:50px;
+  border: 1px solid #629087;
+
+}
+
+.marketing-section-mid-strip2-block1-hyphen{
+  width: 40px;
+  position: absolute;
+  left: 1px;
+  top: 160px;
+  border: 1px solid #629087;
+  
+}
+
+
+
+/* ------------ \/ hiders \/------------ */
+
+.marketing-section-mid-strip1-block1-hider1{
+  width: 90px;
+  height: 210px;
+  background-color:rgb(44, 190, 88);
+  position: absolute;
+  top: 220px;
+  left: 460px;
+  z-index: 500;
+
+}
+
+.marketing-section-mid-strip1-block1-hider2{
+  width: 430px;
+  height: 30px;
+  background-color:rgb(241, 30, 213);
+  position: absolute;
+  top: 400px;
+  left: 310px;
+  z-index: 500;
+}
+
+.marketing-section-mid-strip1-block1-hider3{
+  width: 20px;
+  height: 30px;
+  left: 500px;
+  top: -2px;
+  background-color: rgba(195, 226, 22, 0.753);
+  position: absolute;
+  z-index: 300;
+}
+
+.marketing-section-mid-strip1-block1-hider4{
+  width: 180px;
+  height: 11px;
+  top: 413px;
+  left: -2px;
+  background-color: rgba(53, 212, 66, 0.507);
+  position: absolute;
+  
+  
+  
+}
+
+.marketing-section-mid-strip1-block2-hider1{
+  position: absolute;
+  width: 180px;
+  height: 560px;
+  transform: rotate(20deg);
+  top: 185px;
+  right: -25px;
+  background-color: rgb(129, 144, 230);
+  z-index: -1;
+}
+
+
+@media screen and (max-width:1040px){
+  .marketing-section-mid{background-color: rgb(224, 204, 204);width: 98%;}
+  .marketing-section-mid-strip2{height: auto;}
+  
+  .marketing-section-mid-strip1-block1{width: auto;padding-right: 20px;z-index: -2;border-bottom: none;}
+  .marketing-section-mid-strip1-block2{width: auto;padding-left: 20px;border-bottom: none;}
+  .marketing-section-mid-strip2-block1, .marketing-section-mid-strip2-block2{width: auto;}
+  
+  .marketing-section-mid-strip1-block1-hider2, .marketing-section-mid-strip1-block1-hider4, .marketing-section-mid-strip1-block2-hider1, #marketing-section-mid-vector{display: none;}
+  .marketing-section-mid-strip1-block1-hider1{left: 90%;z-index: -1;}
+  .marketing-section-mid-strip1-block1-hider3{left: 98%;z-index: -1;}
+  #marketing-section-mid-img{left: 65%;}
+
+  
+}
+
+
+  @media screen and (max-width:850px){
+    #marketing-section-mid-img{width: 250px;height: 140px;top: 390px;}
+    .marketing-section-mid-strip1-block1-hider1{height: 50px;top: 380px;}
+    
+  }
+
+
+  @media screen and (max-width:600px){
+    .marketing-section-mid{background-color: #98ecdc;}
+
+    .marketing-section-mid-strip1{flex-direction: column;background-color: #BAA6BE;height: auto;}
+    .marketing-section-mid-strip2{flex-direction: column;background-color: #80abe4;height: auto;}
+    .marketing-section-mid-strip2-block1{padding-top: 50px;}
+    .marketing-section-mid-strip2-block2{padding: 0;}
+  
+    .marketing-section-mid-strip1-block1{border: none;}
+    .marketing-section-mid-strip1-block1-hider1, .marketing-section-mid-strip1-block1-hider3{display: none;}
+
+
+    #marketing-section-mid-img{top: -150px;left: 10px;}
+    .marketing-section-mid-strip1-block2{padding-left: 0;}
+  }
+
+
+  
+  @media screen and (max-width:375px){
+
+  .marketing-section-mid{gap: 50px;}
+  .marketing-section-mid-strip1-block1 h3{padding-left: 20px;}
+
+  .marketing-section-mid-strip1-block1, .marketing-section-mid-strip1-block2, .marketing-section-mid-strip2-block1, .marketing-section-mid-strip2-block2{margin:auto;padding: 0;width: 250px;}
+  .marketing-section-mid-strip1-block1 h3 , .marketing-section-mid-strip1-block2 h3 , .marketing-section-mid-strip2-block1 h3 , .marketing-section-mid-strip2-block2 h3{text-align: center;margin: 0;}
+  .marketing-section-mid-strip1-block1-hyphen, .marketing-section-mid-strip1-block2-hyphen, .marketing-section-mid-strip2-block1-hyphen, .marketing-section-mid-strip2-block2-hyphen{display: none;}
+
+  }
+
+
+/* =============================================================================== le livre de votre vie ================================================================================= */
+
+.thick {
+  font-weight: 600;
+}
+
+#le-livre-de-votre-vie-roseau{              
+  width: 330px;
+  height: 573px;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  z-index: 10;
+}
+
+@media screen and (max-width:1340px){
+  #le-livre-de-votre-vie-roseau{opacity: 0.3;}
+}
+
+@media screen and (max-width:850px){
+  #le-livre-de-votre-vie-roseau{display: none;}
+}
+
+.le-livre-de-votre-vie-title{
+  text-align: center;
+  position: relative;
+   max-width: 1440px;
+   margin: 170px auto 20px auto;
+}
+
+.le-livre-de-votre-vie-title h1{
+  color:#c8d4e7;
+  font-family: "Didact Gothic";
+  font-size: 55px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 53.176px;
+  letter-spacing: 5.5px;
+  width: 90%;
+  margin: 80px auto 50px auto;
+}
+
+.le-livre-de-votre-vie-title-p1{
+  text-align: center;
+  font-family: "Red Hat Display";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 33px */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.le-livre-de-votre-vie-title-p2{
+  font-family: "Red Hat Display";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  width: 70%;
+  line-height: 16px;
+  margin: auto;
+  
+}
+
+
+.le-livre-de-votre-vie-green-text{
+color: #629087;
+text-align: center;
+font-family: "Red Hat Display";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+text-transform: uppercase;
+margin: auto;
+margin-top: 30px;
+}
+
+#le-livre-de-votre-vie-chevron{
+margin-top: 20px;
+}
+
+@media screen and (max-width:350px){
+  .le-livre-de-votre-vie-title-p1{font-size: 14px;}
+  .le-livre-de-votre-vie-title{min-width: 260px;}
+}
+
+
+/* ------------------------- page le-livre-de-votre-vie strip ------------------------------ */
+
+.le-livre-de-votre-vie-strip{
+  display: flex;
+  justify-content: space-between;
+  height: 717px;
+  max-width: 1440px;
+  min-width: 260px;
+  margin: auto;
+  margin-bottom: 40px; 
+  background-color: #c8d4e7;
+  }
+  
+  .le-livre-de-votre-vie-box{
+  width: 50%;
+  min-width:260px;
+  padding-top: 110px;
+  }
+  
+  #img-test {
+  width: 626px;
+  height: 717px;
+  margin-left: 20px;
+  }
+  
+  .le-livre-de-votre-vie-faire-couler-encre{
+    font-family: "Red Hat Display";
+    font-size: 29.509px;
+    font-weight: 600;
+    letter-spacing: 1.475px;
+    text-transform: uppercase;
+    width: 560px;
+     margin-left: 120px;
+    text-wrap: nowrap;
+  }
+
+  .le-livre-de-votre-vie-Pinyon1{
+    font-family: "Pinyon Script";
+    font-size: 62.423px;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: lowercase;
+    width: 460px;
+  }
+
+  .le-livre-de-votre-vie-faire-couler-encre-indent{
+    margin-left: 110px;
+  }
+  
+  .le-livre-de-votre-vie-text-container{
+    max-width: 390px;
+    margin-top: 60px;
+    margin-left: 170px;
+    padding-left: 20px;
+    height: 300px;
+  
+  }
+
+  .le-livre-de-votre-vie-text-container h3{
+    font-family: "Red Hat Display";
+    text-transform: capitalize;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1px;
+
+  }
+
+  .le-livre-de-votre-vie-text-container-p1{
+    font-family: "Red Hat Display";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+  }
+
+  .le-livre-de-votre-vie-strip-question-bt {
+    background-color: #c8d4e7;
+  display: block;
+  margin: auto;
+  font-family: "Didact Gothic";
+  font-size: 20px;
+  font-weight: 400;
+  text-wrap: nowrap;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  border:1px solid black;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  width:300px;
+  text-wrap: nowrap;
+  white-space: nowrap;
+  text-indent: -60px;
+  }
+
+  .le-livre-de-votre-vie-strip-question-bt:hover{
+    color: #629087;
+    cursor: pointer;
+  }
+  
+  .hr-question{
+  width: 310px;
+  position: relative;
+  left: 40px;
+  }
+
+  @media screen and (max-width:1330px){
+    .marketing-box{padding-top: 30px;}
+    .le-livre-de-votre-vie-faire-couler-encre{margin-left: 10px;width: auto;}
+    .le-livre-de-votre-vie-faire-couler-encre-indent{margin-left: 0;}
+    
+    .le-livre-de-votre-vie-text-container{padding-left: 0px;max-height: 400px;margin-left: 100px;}
+  }
+  
+  
+  @media screen and (max-width:1070px){
+  #img-test{width: 450px;margin-left: 10px;}
+  }
+  
+  
+  @media screen and (max-width:890px){
+  
+  #img-test, #marketing-roseau{display: none;}
+  .le-livre-de-votre-vie-faire-couler-encre{text-align: center;margin: auto;font-size: 20px;}
+  .le-livre-de-votre-vie-strip{justify-content: center;}
+  .le-livre-de-votre-vie-text-container{padding: 0;margin: auto;}
+  .le-livre-de-votre-vie-strip-question-bt{margin-top: 50px;font-size: 15px;width: 90%;display: flex;justify-content: center;text-align: center;text-indent: 0px;}
+  .le-livre-de-votre-vie-Pinyon1{font-size: 45px;}
+  .le-livre-de-votre-vie-box{padding-left: 0;width:390px;}
+  }
+  
+  @media screen and (max-width:430px){
+    section.top-page{height:auto;}
+    .le-livre-de-votre-vie-title h1{font-size: 35px;}
+  }
+  
+  @media screen and (max-width:375px){
+    .le-livre-de-votre-vie-text-container{width: 250px;margin: auto;}
+    .marketing-ecriture-digitale{width: 250px;text-wrap: wrap;text-align: center;}
+    .le-livre-de-votre-vie-strip{min-width:260px;margin: auto;}
+    .le-livre-de-votre-vie-box{min-width: 260px;}
+    .le-livre-de-votre-vie-strip-question-bt{font-size: 10px;width:250px;text-indent: 0;}
+    .le-livre-de-votre-vie-Pinyon1{font-size: 35px;}
+  }
+
+  
+  /* ------------------------- page le-livre-de-votre-vie section mid ------------------------------ */
+
+.le-livre-de-votre-vie-section-mid{
+  display: flex;
+  max-width: 1440px;
+  min-width: 260px;
+  flex-direction: column;
+  position: relative;
+  font-family: "Red Hat Display";
+  font-size: 13.769px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: auto;
+}
+
+
+  .le-livre-de-votre-vie-section-mid-h2{
+    text-align: center;
+    font-family: "Red Hat Display";
+    font-size: 39.724px;
+    font-weight: 600;
+    letter-spacing: 1.986px;
+    text-transform: uppercase;
+    margin-bottom: 110px;
+  }
+
+  @media screen and (max-width:350px){
+    .le-livre-de-votre-vie-section-mid-h2{font-size: 30px;}
+  }
+
+
+/* ------- images ------------ */
+
+
+#le-livre-de-votre-vie-section-mid-strip1-block1-img{
+  width: 260px;
+  height: 310px;
+  position: absolute;
+  left:385px;
+  top: 185px;
+  z-index: 1000;
+  
+}
+
+
+#le-livre-de-votre-vie-section-mid-strip2-block1-img{
+  width: 480px;
+  height: 250px;
+  position: absolute;
+  left:-190px;
+  top: 470px;
+  z-index: 1000;
+  
+}
+
+/*  ----------------- green text -------------------- */
+
+/*
+.green{
+  color: var(--Black, #629087);
+
+font-family: "Red Hat Display";
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+z-index: 10;
+}
+
+*/
+
+/* ---------------------------------------------------- */
+
+
+/* --------------- all h3 ------------ */
+
+.le-livre-de-votre-vie-section-mid-strip1-block1 h3 , .le-livre-de-votre-vie-section-mid-strip1-block2 h3 , .le-livre-de-votre-vie-section-mid-strip2-block1 h3 , .le-livre-de-votre-vie-section-mid-strip2-block2 h3{
+  font-family: "Didact Gothic";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  text-wrap: nowrap;
+  white-space: nowrap;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-left: 60px;
+
+  line-height: 1em;
+}
+
+
+.le-livre-de-votre-vie-section-mid-strip1-block1 , .le-livre-de-votre-vie-section-mid-strip1-block2 , .le-livre-de-votre-vie-section-mid-strip2-block1 , .le-livre-de-votre-vie-section-mid-strip2-block2{
+  position: relative;
+  width: 350px;
+}
+
+
+.section-mid-orange-link{
+  color: var(--Desert-carnation, #CDA482);
+  display: block;
+  text-align: right;
+  font-family: "Red Hat Display";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.65px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  width: 260px;
+  position:relative;
+  z-index: 100;
+}
+
+
+
+
+/* ------------- le livre de votre vie SECTION MID STRIP 1 ------------ */
+
+
+.le-livre-de-votre-vie-section-mid-strip1{
+  display: flex;
+  margin: auto;
+  height: 420px;
+  
+  
+}
+
+/*  ----- BLOCK 1 -------*/
+
+.le-livre-de-votre-vie-section-mid-strip1-block1{
+  border: 1px solid #629087;
+  border-top: none;
+  border-left: none;
+  
+  padding-right: 170px;
+  z-index: 100;
+  width: 325px;
+  position: relative;
+  
+  
+}
+
+.le-livre-de-votre-vie-section-mid-strip1-block1-hyphen{
+  width: 40px;
+  position: absolute;
+  left: 1px;
+  top: 15px;
+  border: 1px solid #629087;
+  z-index: 6;
+  
+}
+
+
+.le-livre-de-votre-vie-section-mid-strip1-block1-orange-link{
+  
+  color: var(--Desert-carnation, #B5C4DC);
+  padding: 0;
+  text-align: right;
+  font-family: "Red Hat Display";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.65px;
+  
+  text-transform: uppercase;
+  margin-left: 100px;
+  position:relative;
+  z-index: 100;
+
+  border-bottom: 2px solid #B5C4DC;
+  text-decoration: none;
+}
+
+.le-livre-de-votre-vie-section-mid-strip1-block1-hider1{
+  width: 30px;
+  height: 300px;
+  background-color:#fff;
+  position: absolute;
+  top: 190px;
+  left: 480px;
+  
+
+
+}
+
+.le-livre-de-votre-vie-section-mid-strip1-block1-hider2{
+  width: 290px;
+  height: 30px;
+  background-color: #fff;
+  position: absolute;
+  top: 405px;
+  left: 365px;
+  
+
+
+}
+
+
+.le-livre-de-votre-vie-section-mid-strip1-block1-hider3{
+  width: 20px;
+  height: 120px;
+  left: 485px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 300;
+}
+
+
+.le-livre-de-votre-vie-section-mid-strip1-block1-hider4{
+  width: 160px;
+  height: 11px;
+  top: 413px;
+  left: -30px;
+  background-color: #fff;
+  position: absolute;
+  
+  
+  
+}
+
+/*  ----- BLOCK 2 -------*/
+
+
+.le-livre-de-votre-vie-section-mid-strip1-block2{
+  border: 1px solid #629087;
+  padding-top: 45px;
+  padding-left: 130px;
+  border-top: none;
+  border-right: none;
+  width: 370px;
+  z-index: 10; 
+}
+
+.le-livre-de-votre-vie-section-mid-strip1-block2-hyphen{
+  width: 40px;
+  position: absolute;
+  left: 130px;
+  top:60px;
+  border: 1px solid #629087;
+
+}
+
+
+.le-livre-de-votre-vie-section-mid-strip1-block2-orange-link{
+  color: var(--Desert-carnation, #B5C4DC);
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-left: 60px;
+  letter-spacing: 0.65px;
+  font-weight: 500;
+  border-bottom: 2px solid #B5C4DC;
+  text-decoration: none;
+
+}
+
+
+.le-livre-de-votre-vie-section-mid-strip1-block2-hider1{
+  position: absolute;
+  width: 110px;
+  height: 20px;
+  top: 410px;
+  right: -30px;
+  background-color: #fff;
+  z-index: 300;
+}
+
+
+/* ------------- le livre de votre votre vie SECTION MID STRIP 2 ------------ */
+
+.le-livre-de-votre-vie-section-mid-strip2{
+  display: flex;
+  margin: auto;
+  
+}
+
+/*  ----- BLOCK 1 -------*/
+
+
+
+
+
+.le-livre-de-votre-vie-section-mid-strip2-block1{
+  border: 1px solid #629087;
+  border-left: none;
+  border-bottom: none;
+  padding-top: 120px;
+  padding-right: 140px;
+  width: 385px;
+}
+
+
+.le-livre-de-votre-vie-section-mid-strip2-block1-hyphen{
+  width: 40px;
+  position: absolute;
+  left: 1px;
+  top: 135px;
+  border: 1px solid #629087;
+  
+}
+
+
+.le-livre-de-votre-vie-section-mid-strip2-block1-green{
+  color: var(--Black, #629087);
+
+  font-family: "Red Hat Display";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 290px;
+}
+
+.le-livre-de-votre-vie-section-mid-strip2-block1-orange-link{
+  color: var(--Desert-carnation, #B5C4DC);
+  
+  text-align: right;
+  font-family: "Red Hat Display";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.65px;
+  text-transform: uppercase;
+  margin-left: 115px;
+  border-bottom: 2px solid #B5C4DC;
+  text-decoration: none;
+  
+  
+  
+}
+/* au cas ou
+
+color: var(--Desert-carnation, #CDA482);
+  display: block;
+  text-align: right;
+  font-family: "Red Hat Display";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.65px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  width: 300px;
+  position:relative;
+  left: 60px;
+  */
+
+
+.le-livre-de-votre-vie-section-mid-strip2-block1-hider1{
+  position: absolute;
+  width: 20px;
+  height: 100px;
+  top: 375px;
+  right:-10px;
+  background-color: #fff;
+  z-index: 300;
+}
+
+
+/*  ----- BLOCK 2 -------*/
+
+
+.le-livre-de-votre-vie-section-mid-strip2-block2{
+  border: 1px solid #629087;
+  border-right: none;
+  border-bottom: none;
+   padding-left: 140px; 
+  padding-top: 60px;
+  width: 384px;
+  
+}
+
+.le-livre-de-votre-vie-section-mid-strip2-block2-hyphen{
+  width: 40px;
+  position: absolute;
+  left:140px;
+  top: 90px;
+  border: 1px solid #629087;
+}
+
+.le-livre-de-votre-vie-section-mid-strip2-block2-orange-link{
+  color: var(--Desert-carnation, #B5C4DC);
+  text-align: right;
+  font-family: "Red Hat Display";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.65px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 60px;
+  border-bottom: 2px solid #B5C4DC;
+}
+
+.le-livre-de-votre-vie-section-mid-bt{
+  width: 290px;
+  margin: auto;
+  margin-top: 150px;
+  border:none;
+  padding: 20px 40px 20px 40px;
+  margin-bottom: 120px;
+  font-family: "Didact Gothic";
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: #629087;
+  color: white;
+}
+
+.le-livre-de-votre-vie-section-mid-bt:hover{
+  background-color: #B5C4DC;
+  color: #629087;
+  cursor: pointer;
+}
+
+
+
+/* --------- ===========================================------------ */
+
+ 
+
+@media screen and (max-width:1120px){
+  .le-livre-de-votre-vie-section-mid{background-color: #edf7f4;overflow: hidden;}
+
+  #le-livre-de-votre-vie-section-mid-strip1-block1-img{top: -200px;}
+  #le-livre-de-votre-vie-section-mid-strip2-block1-img{left: -430px;top: 730px;}
+  
+
+  .le-livre-de-votre-vie-section-mid-strip1{flex-direction: column;margin-bottom: 350px;gap: 50px;}
+  .le-livre-de-votre-vie-section-mid-strip2{flex-direction: column;gap: 50px;}
+
+  .le-livre-de-votre-vie-section-mid-strip1-block1-hider1, .le-livre-de-votre-vie-section-mid-strip1-block1-hider2, .le-livre-de-votre-vie-section-mid-strip1-block1-hider3, .le-livre-de-votre-vie-section-mid-strip1-block1-hider4, .le-livre-de-votre-vie-section-mid-strip1-block2-hider1, .le-livre-de-votre-vie-section-mid-strip2-block1-hider1{display: none;}
+
+
+  .le-livre-de-votre-vie-section-mid-strip1-block1, .le-livre-de-votre-vie-section-mid-strip1-block2, .le-livre-de-votre-vie-section-mid-strip2-block1, .le-livre-de-votre-vie-section-mid-strip2-block2{width: 250px;border: none;padding: 0;}
+
+  .le-livre-de-votre-vie-section-mid-strip1-block2-hyphen, .le-livre-de-votre-vie-section-mid-strip2-block1-hyphen{left: 0;top: 15px;}
+  
+  .le-livre-de-votre-vie-section-mid-strip2-block2-hyphen{left: 0;top: 30px;}
+  .le-livre-de-votre-vie-section-mid-strip1-block1-orange-link, .le-livre-de-votre-vie-section-mid-strip1-block2-orange-link, .le-livre-de-votre-vie-section-mid-strip2-block1-orange-link, .le-livre-de-votre-vie-section-mid-strip2-block2-orange-link{margin: 0;}
+  
+}
+
+
+  @media screen and (max-width:600px){
+    #le-livre-de-votre-vie-section-mid-strip1-block1-img, #le-livre-de-votre-vie-section-mid-strip2-block1-img{display: none;}
+    .le-livre-de-votre-vie-section-mid-strip1-block1-hyphen, .le-livre-de-votre-vie-section-mid-strip1-block2-hyphen, .le-livre-de-votre-vie-section-mid-strip2-block1-hyphen, .le-livre-de-votre-vie-section-mid-strip2-block2-hyphen{display: none;}
+    .le-livre-de-votre-vie-section-mid-strip1-block1 h3 , .le-livre-de-votre-vie-section-mid-strip1-block2 h3 , .le-livre-de-votre-vie-section-mid-strip2-block1 h3 , .le-livre-de-votre-vie-section-mid-strip2-block2 h3{margin: 0;font-size: 25px;text-decoration: underline;}
+    .le-livre-de-votre-vie-section-mid-strip1{margin-bottom: 300px;}
+  }
+
+  @media screen and (max-width:375px){
+    .block1-hyphen{display: none;}
+    .block2-hyphen{display: none;}
+    .block3-hyphen{display: none;}
+    .block4-hyphen{display: none;}
+
+    .bloc1 h3 , .bloc2 h3 , .bloc3 h3 , .bloc4 h3{text-align: center;margin: 0;}
+    .block3-green{width: 250px;}
+
+    .le-livre-de-votre-vie-section-mid-bt{width: 260px;font-size: 15px;}
+
+  }
+    /* 
+
+    .section-mid{min-width: 290px;}
+    
+    */
+  
+
+
+    /* ===================================================le livre de votre vie : cover ========================================= */
+
+    .le-livre-de-votre-vie-cover{
+      color: #FFF;
+      background-image: url("./ressources/josh-hild-jdTdvF6fDus-unsplash 1.png");
+      background-size: cover;
+      background-position: 48%;
+      max-width: 1440px;
+      height: 785px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .le-livre-de-votre-vie-cover h2{
+      text-align: center;
+      font-family: "Red Hat Display";
+      font-size: 39.724px;
+      font-weight: 600;
+      line-height: 53.846px;
+      letter-spacing: 1.986px;
+      text-transform: uppercase;
+      padding-bottom: 30px;
+      padding-top: 45px;
+    }
+  
+    .le-livre-de-votre-vie-cover-boxes{
+      display: flex;
+      margin:10px auto 10px auto;
+      width: 80%;
+      height: 350px;
+      font-family: "Red Hat Display";
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 15.833px;
+    }
+  
+    .le-livre-de-votre-vie-cover h3{
+      text-align: center;
+      font-family: "Didact Gothic";
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 87.318%;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+  
+    hr.le-livre-de-votre-vie-cover-diagonal{
+      height: 10px;
+      width: 150px;
+      rotate: 110deg;
+      margin-top: 130px;
+      border-width: 1px;
+      border-left: none;
+      border-right: none;
+      border-top: none;
+    }
+  
+  
+    .le-livre-de-votre-vie-cover-box-edition-de h3{
+      text-align: left;
+    }
+  
+    .le-livre-de-votre-vie-cover-box-edition-de li{ 
+      list-style-type: "• ";
+      line-height: normal;
+    }
+
+    .le-livre-de-votre-vie-cover-box-edition-de p{
+      margin: 0;
+    }
+  
+    .le-livre-de-votre-vie-cover-box-garantie{
+      
+      padding-left:70px;
+      padding-right:70px;
+    }
+
+    .le-livre-de-votre-vie-cover-box-garantie li{
+      list-style-type: "• ";   
+      line-height: normal;
+    }
+  
+    .le-livre-de-votre-vie-cover-box-impression{
+      width: 220px;
+    }
+  
+    .le-livre-de-votre-vie-cover-box-impression p{
+      line-height: normal;
+      margin: 0;
+      width: 249px;
+    }
+  
+    .le-livre-de-votre-vie-cover-bt{
+      width: 200px;
+      border: 2px solid white;
+      border-left: none;
+      border-right: none;
+      border-top: none;
+      padding-bottom: 10px;
+      margin: 50px auto 0 auto;
+      color: #ffffff;
+      background-color: #fff0;
+      font-family: "Didact Gothic";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 87.318%; 
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .le-livre-de-votre-vie-cover-bt:hover{
+      color: #629087;
+      border-color: #629087;
+      cursor: pointer;
+    }
+  
+  
+    /* ----------------- créons l'ouvrage de votre imagination : responsive ------------------ */
+  
+    @media screen and (max-width:1330px){
+      .le-livre-de-votre-vie-cover-box-impression{padding-left:30px;}
+      .le-livre-de-votre-vie-cover-bt{margin: 100px auto 0 auto;}
+    }
+  
+    @media screen and (max-width:920px){
+      hr.le-livre-de-votre-vie-cover-diagonal{display: none;}
+    }
+
+
+    @media screen and (max-width:920px){
+.le-livre-de-votre-vie-cover-box-impression p{width: auto;}
+    }
+  
+    @media screen and (max-width:760px){
+      .le-livre-de-votre-vie-cover-box-garantie{padding: 0;}
+      .le-livre-de-votre-vie-cover-box-garantie h3{text-align: left;}
+      .le-livre-de-votre-vie-cover-box-impression{padding: 0;}
+      .le-livre-de-votre-vie-cover-box-impression h3{text-align: left;}
+      .le-livre-de-votre-vie-cover-boxes{flex-direction: column;height: 100%;}
+      .le-livre-de-votre-vie-cover{height: 100%;}
+      .le-livre-de-votre-vie-cover-bt{margin: 50px auto 25px auto;}
+      
+    }
+  
+    @media screen and (max-width:400px){
+      .le-livre-de-votre-vie-cover{min-width: 260px;}
+    }
+   
+
+
+/* -----------------------------------------------FOOTER--------------------------------------------------- */
+
+
+  footer {
+    display: flex;
+    height: 280px;
+    
+    background-color: #629087;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: "Red Hat Display";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+  }
+  
+  .footer-main-div{
+    display: flex;
+    height: 200px;
+    max-width: 1440px;
+    margin: auto;
+    justify-content:space-evenly;
+  }
+  
+  .footer-logo-and-address{
+    margin-right: 50px;
+    padding-top: 25px;
+    
+  }
+  
+  .footer-logo-and-address address{
+    font-style: normal;
+    margin-left: 10px;
+  }
+  
+  .email{
+    text-decoration: underline;
+    margin: 0;
+  }
+  
+  footer table{
+    margin-right: 300px;
+    margin-top: 60px;
+    height: 70px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  
+  footer tr td{
+    width: 130px;
+  }
+
+
+  footer td a{
+    text-decoration: none;
+    color: #FFF;
+  }
+  
+  
+  /* ------------------------------------------ FOOTER : RESPONSIVE ------------------------------------------ */
+  
+
+  @media screen and (max-width: 920px){
+    footer table{margin:0;margin-right: 20px;}
+    footer tr td{display:flex;flex-direction: column;width: 100%;line-height: 35px;}
+    .footer-main-div{justify-content: space-between;}
+  }
+  
+  @media screen and (max-width: 690px){
+    footer table{margin-right:50px;}
+  }
+  
+  @media screen and (max-width: 540px){
+    footer{height: 100%;}
+    .footer-main-div{height: 500px;margin-bottom: 20px;}
+    .footer-main-div{flex-direction: column;}
+    footer table{margin:0;}
+    .footer-logo-and-address{margin: auto;}
+  }
+  
+  @media screen and (max-width: 400px){
+    footer{min-width: 260px;}
+   .footer-logo-and-address{width: 260px;}
+   footer table{width: 260px;margin: auto;}
+  }
+  
+  
+  
+  
+    
